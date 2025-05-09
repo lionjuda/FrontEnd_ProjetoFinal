@@ -38,6 +38,16 @@ import { ProductUpdateComponent } from './components/product/product-update/prod
 import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
 import { FormaPagamentoReadComponent } from './components/formaPagamento/forma-pagamento-read/forma-pagamento-read.component';
 import { FormaPagamentoCrudComponent } from './views/forma-pagamento-crud/forma-pagamento-crud.component';
+import { ClienteReadComponent } from './components/cliente/cliente-read/cliente-read.component';
+import { ClienteDeleteComponent } from './components/cliente/cliente-delete/cliente-delete.component';
+import { ClienteUpdateComponent } from './components/cliente/cliente-update/cliente-update.component';
+import { ClienteCreateComponent } from './components/cliente/cliente-create/cliente-create.component';
+import { FornecedorCreateComponent } from './components/fornecedor/fornecedor-create/fornecedor-create.component';
+import { FornecedorReadComponent } from './components/fornecedor/fornecedor-read/fornecedor-read.component';
+import { FornecedorDeleteComponent } from './components/fornecedor/fornecedor-delete/fornecedor-delete.component';
+import { FornecedorUpdateComponent } from './components/fornecedor/fornecedor-update/fornecedor-update.component';
+import { FornecedorCrudComponent } from './views/fornecedor/fornecedor-crud/fornecedor-crud.component';
+import { ClienteCrudComponent } from './views/cliente/cliente-crud/cliente-crud.component';
 
 registerLocaleData(localePt)
 
@@ -55,7 +65,17 @@ registerLocaleData(localePt)
     ProductUpdateComponent,
     ProductDeleteComponent,
     FormaPagamentoReadComponent,
-    FormaPagamentoCrudComponent
+    FormaPagamentoCrudComponent,
+    ClienteReadComponent,
+    ClienteDeleteComponent,
+    ClienteUpdateComponent,
+    ClienteCreateComponent,
+    FornecedorCreateComponent,
+    FornecedorReadComponent,
+    FornecedorDeleteComponent,
+    FornecedorUpdateComponent,
+    FornecedorCrudComponent,
+    ClienteCrudComponent
   ],
   imports: [
     BrowserModule,
