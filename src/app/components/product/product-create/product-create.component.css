@@ -1,0 +1,10 @@
+/* Estiliza o formulário para exibir os elementos em coluna */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Adiciona margem aos botões */
+button {
+    margin: 20px 15px 0px 0px;
+}

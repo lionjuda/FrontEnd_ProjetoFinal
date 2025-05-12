@@ -1,0 +1,10 @@
+/* Define o estilo do formulário */
+form {
+    display: flex; /* Define o layout flexível */
+    flex-direction: column; /* Organiza os elementos em uma coluna */
+}
+
+/* Define o estilo dos botões */
+button {
+    margin: 20px 15px 0px 0px; /* Margem superior de 20px, margem direita de 15px, sem margem inferior e sem margem esquerda */
+}
